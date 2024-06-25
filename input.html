@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input:valid{
+        border:3px solid green;
+    }
+    input:invalid{
+        border:3px solid red;
+    }
+</style>
+<body>
+    <form>
+        <!-- text -->
+     <label for="name">Name:</label>
+     <input type="text" id="name" value="Sovan Ghosh" readonly required>
+     <br><br>
+    <!-- email -->
+     <label for="email">Email:</label>
+     <input type="email" id="email" placeholder="xyz@gmail.com">
+     <br><br>
+    <!-- password -->
+     <label for="password">Password:</label>
+     <input type="password" id="password" minlength="5" maxlength="8" required>
+     <br><br>
+    <!-- number -->
+     <label for="age">Age:</label>
+     <input type="number" id="age" min="5" max="50" step="5">
+     <br><br>
+     <!-- date -->
+      <label for="dob">DOB:</label>
+      <input type="date" id="dob">
+      <br><br>
+      <!-- week -->
+       <label for="week">Week:</label>
+       <input type="week" id="week">
+       <br><br>
+       <!-- time -->
+        <label for="time">Time:</label>
+        <input type="time" id="time">
+        <br><br>
+    <!-- color -->
+     <label for="theme">Theme:</label>
+     <input type="color" id="theme">
+     <br><br>
+     <!-- file -->
+      <label for="Madhyamik_certificate">Madhyamik Certificate:</label>
+      <input type="file" id="Madhyamik_certificate">
+      <br><br>
+      <!-- URL -->
+    <label for="url">Link:</label>
+    <input type="url" id="url">
+    <br><br>
+    <!-- pattern attribute -->
+    <label for="credit">Credit Card:</label>
+    <input type="text" id="credit" pattern="\d{16}">
+    <br><br>
+    <label for="date_text">Date:</label>
+    <input type="text" id="date_text" placeholder="YYYY/MM/DD" pattern="\d{4}/\d{2}/\d{2}">
+    <br><br>
+    <label for="phone">Mobile:</label>
+    <input type="text" id="phone" pattern="[+][9][1]\d{10}">
+    <br><br>
+    <label for="url_text">URL:</label>
+    <input type="text" id="url_text" pattern="https?://.+">
+    <br><br>
+     <!-- submit -->
+    <input type="submit">
+    <!-- reset -->
+     <input type="reset">
+    </form>
+</body>
+</html>
