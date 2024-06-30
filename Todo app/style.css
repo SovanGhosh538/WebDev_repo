@@ -1,0 +1,33 @@
+html{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.todo{
+    border:1px solid black;
+    width: 450px;
+    height:600px;
+    margin: auto;
+}
+.input-area{
+    margin: auto;
+    margin-top: 30px;
+    width:220px;
+    height:20px;
+}
+h2{
+    text-align: center;
+}
+#tasks{
+    border:1px solid black;
+    height:400px;
+    width:300px;
+    margin:auto;
+}
+.task-area{
+    margin: auto;
+    margin-top: 20px;
+    height:500px;
+    width:400px
+}
