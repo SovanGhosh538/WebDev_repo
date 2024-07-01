@@ -24,6 +24,7 @@ h2{
     height:400px;
     width:300px;
     margin:auto;
+    overflow: auto;
 }
 .task-area{
     margin: auto;
